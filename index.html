@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>A Network to Fight Multirresistance in Europe</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="index_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="assets/css/extra2.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">A Network to Fight Multirresistance in Europe</h1>
+    <h2 class="author"><h4>
+Aurora Baluja <br>Anaestesiology Department. <br>Hospital Clinico de Santiago. Spain <br><span class="citation" data-cites="maureviv">@maureviv</span>
+</h4></h2>
+    <h3 class="date">15 diciembre, 2019</h3>
+</section>
+
+<section id="section" class="slide level2">
+<h2></h2>
+<section data-background-image="./assets/img/praia-america.jpg" data-background-size="100%">
+</section>
+<!-- ## -->
+<!-- tejo: yew -->
+<!-- <section data-background-image="./assets/img/galicia/europe-spain-galicia-faro.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/death-coast-galicia.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/castro-barona.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/palloza.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/carnota-praia.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/zeiss_faro_sony_galicia_galiza_a7_haida_1635-1098441.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/ezaro.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/teixadal.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/rozavales.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-08-11_14-26-02.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-08-11_14-26-03.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-08-11_14-25-55.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/mazaricos.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/marronda2.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/froxan1.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/Fraga-da-Marronda2.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/fraga_mandeo2.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/fraga1.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/fraga2.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-08-20_00-13-43.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-08-20_00-13-35.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/termas_minho.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/photo_2019-09-06_17-15-31.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<!-- ## -->
+<!-- <section data-background-image="./assets/img/galicia/praia-america.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+</section>
+<section id="eu-h2020" class="slide level2">
+<h2>EU H2020 <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/praia-america.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Main idea: proof-of-concept for a monitoring, vigilance network.</p></li>
+<li><p>Integrates human &amp; other species ecology.</p></li>
+<li><p>Antibiotic multirresistance (AMR) mapping.</p></li>
+<li><p>AMR prediction.</p></li>
+<li><p>Ability to inform interventions aimed at reducing AMR.</p></li>
+<li><p>Ability to change antibiotic policies across Europe.</p></li>
+<li><p>AMR permanent monitoring.</p></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-1" class="slide level2">
+<h2>EU H2020 <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/Solpor_Praia_America.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-bhc-34-2020" target="blank">ID: SC1-BHC-34-2020: New approaches for clinical management and prevention of resistant bacterial infections in high prevalence settings.</a></p>
+<ul>
+<li>Total budget: 25 M€</li>
+<li>Contribution per project: 10-15 M€</li>
+<li>Opening date: 4 july 2019</li>
+<li>Deadline: 7 april 2020</li>
+<li>Type of action: Research and Innovation (RIA)</li>
+<li>Read ‘Topic Description’ for more info</li>
+</ul></li>
+</ul>
+</div>
+<!-- <div class="img-center"> -->
+<!--   <img class="plain" style="width:900px;" src="assets/img/Screenshot_2019-12-14%20Funding%20tenders.png"> -->
+<!-- </div> -->
+</section>
+<section id="eu-h2020-2" class="slide level2">
+<h2>EU H2020 <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/Solpor_Praia_America.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white">
+<p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-bhc-34-2020" target="blank">ID: SC1-BHC-34-2020</a> - Specific Challenge:</p>
+</div>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Antimicrobial resistance represents a serious threat to public health in Europe and beyond.</p></li>
+<li><p>Within the last decades resistance has increased considerably in many clinically important pathogenic bacteria.</p></li>
+<li><p>Data collected by the European Centre for Disease Prevention and Control (ECDC)[1] shows that nowadays in several European countries prevalence levels of infections that can no longer be treated with last-line classes of antibiotics have reached levels where isolation measures may no longer be feasible.</p></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-3" class="slide level2">
+<h2>EU H2020 <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white">
+<p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-bhc-34-2020" target="blank">ID: SC1-BHC-34-2020</a> - Specific Challenge:</p>
+</div>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>In addition to this, prevalence levels of resistant infections are likely to increase in countries where currently such levels are relatively low. This may lead to an increasing number of outbreaks of resistant infections in these countries.</p></li>
+<li><p>The challenge is to address this threat via a multi-disciplinary approach by developing suitable clinical management and infection prevention plans detailing how to deal with resistant bacterial infections in high prevalence settings.</p></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-4" class="slide level2">
+<h2>EU H2020 <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white">
+<p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-bhc-34-2020" target="blank">ID: SC1-BHC-34-2020</a> - Specific Challenge:</p>
+</div>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>The spread of AMR across borders has been recognised globally and improving knowledge on clinical management and infection prevention in high prevalence settings might also benefit other countries around the globe, including low and middle income countries and thereby diminish the spread of resistant bacteria.</p></li>
+<li><p>This topic will contribute to the implementation of the EU One Health Action Plan against Antimicrobial Resistance[2].</p></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-other-calls" class="slide level2">
+<h2>EU H2020, other calls <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/sc1-bhc-20b-2020" target="blank">ID: SC1-BHC-20B-2020: Public procurement of innovative solutions (PPI) for diagnostics for infectious diseases.</a></p>
+<ul>
+<li>Total budget: shared with BHC-20A</li>
+<li>Contribution per project: 3-5 M€</li>
+<li>Opening date: 4 july 2019</li>
+<li>Deadline: 7 april 2020</li>
+<li>Type of action: PPI</li>
+<li>Read ‘Topic Description’ for more info</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-other-calls-1" class="slide level2">
+<h2>EU H2020, other calls <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p><a href="https://www.efsa.europa.eu/en/funding/calls/era-net-support-joint-programming-initiative" target="blank">SC1-BHC-2018-2020: ERA-NET to support the Joint Programming Initiative on Antimicrobial resistance (JPIAMR).</a></p>
+<ul>
+<li>Total budget: 5 M€</li>
+<li>Contribution per project: 5 M€</li>
+<li>Opening date: 4 july 2019</li>
+<li>Deadline: 7 april 2020</li>
+<li>Type of action: Research and Innovation (RIA)</li>
+<li>Read ‘Topic Description’ for more info.</li>
+</ul></li>
+<li><p>Others outside human health</p></li>
+</ul>
+</div>
+</section>
+<section id="eu-h2020-one-health" class="slide level2">
+<h2>EU H2020: One Health <span> <img class="plain imgtitle" style="width:200px;height:90px;" src="assets/img/eu-commission.png"></img> </span></h2>
+<p><img src="assets/img/epidemiology_amr_wegener_2012.jpg" alt="The epidemiology of antimicrobial resistance at the human–animal interface. Image from Wegener, 2012: Improving Food Safety Through a One Health Approach: Workshop Summary [@wegener_antibiotic_2012]." /></p>
+</section>
+<section id="multiresistance" class="slide level2">
+<h2>Multiresistance</h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Different from simple resistance. &gt;= 3 atb families</p></li>
+<li><p>Many mechanisms</p>
+<ul>
+<li>Enzymatic: encoded in plasmids. Transmisible</li>
+<li>Chromosomal: non transmisible</li>
+<li>…</li>
+</ul></li>
+<li><p>Plasmids: DNA strands with encoded resistance</p>
+<ul>
+<li>Persistence. Resistant to degradation</li>
+<li>Spread to the environment</li>
+<li>Water, soil</li>
+<li>Hosts: gut bacteria</li>
+</ul></li>
+<li><p>Prion-like behaviour.</p></li>
+</ul>
+</div>
+</section>
+<section id="plasmids" class="slide level2">
+<h2>Plasmids</h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<p>Useful concepts:</p>
+<ul>
+<li><p>DNA strands. Can be left outside bacteria and survive in the environment.</p></li>
+<li><p>Defensive. Not offensive. No pathogenic.</p></li>
+<li><p>Bacteria get “infected” by them.</p>
+<ul>
+<li><p>This Enhances their defensive phenotype.</p></li>
+<li><p>But at a Cost: energy spent building, maintaining defensive proteins, pumping antibiotics…</p></li>
+<li><p>Often this diminishes their offensive capabilities.</p></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="plasmids-1" class="slide level2" data-transition="fade-out">
+<h2>Plasmids</h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Produced and successfully transmitted under antibiotic pressure.</p>
+<ul>
+<li>Farms: mammal, avian, fish.</li>
+<li>Agriculture.</li>
+<li>Increased growth, able to increase survival at higher animal concentrations.</li>
+<li>AMR are naturalised in animal guts.</li>
+</ul></li>
+<li><p>Released into environment, food.</p></li>
+<li><p>Picked up by human gut bacteria. Naturalised. Eventual infections (gut, urinary) will be by AMR.</p>
+<ul>
+<li>Inadequate empirical treatment with disease progression to sepsis.</li>
+<li>Death by uncontrolled bacterial spread or bacterial toxemia (pre-antibiotic era).</li>
+</ul></li>
+</ul>
+</div>
+<p><!-- - Less impact (quantitatively) of human antibiotic usage --></p>
+</section>
+<section id="plasmids-2" class="slide level2" data-transition="fade-in slide-out">
+<h2>Plasmids</h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Produced and successfully transmitted under antibiotic pressure.</p>
+<ul>
+<li>Farms: mammal, avian, fish.</li>
+<li>Agriculture.</li>
+<li>Increased growth, able to increase survival at higher animal concentrations.</li>
+<li>AMR are naturalised in animal guts.</li>
+</ul></li>
+<li><p>Released into environment, food.</p></li>
+<li><p>Picked up by human gut bacteria. Naturalised. <del>Eventual infections (gut, urinary) will be by AMR.</del></p>
+<ul>
+<li><del>Inadequate empirical treatment with disease progression to sepsis.</del></li>
+<li><del>Death by uncontrolled bacterial spread or bacterial toxemia (pre-antibiotic era).</del></li>
+</ul></li>
+</ul>
+</div>
+<p><!-- - Less impact (quantitatively) of human antibiotic usage --></p>
+</section>
+<section id="plasmid-mapping" class="slide level2">
+<h2>Plasmid mapping</h2>
+<section data-background-image="./assets/img/klebsiella_wide.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Gut tract swabs, cultured.</p></li>
+<li><p>Inexpensive at scale. Non-invasive for humans and animals.</p></li>
+<li><p>Routine in selected human groups to monitor colonisation.</p></li>
+<li><p>People starting to do it in animals.</p></li>
+</ul>
+</div>
+<div class="img-center">
+<p><img class="plain" style="width:500px;" src="assets/img/cultureswab_beckton.png"> <img class="plain" style="width:400px;" src="assets/img/cultureswab_plate.jpg"></p>
+</div>
+</section>
+<section id="plasmid-mapping-1" class="slide level2">
+<h2>Plasmid mapping</h2>
+<section data-background-image="./assets/img/primavera-san-lazaro2.jpg" data-background-size="100%">
+</section>
+<!-- <section data-background-image="./assets/img/Vilanova-Cerveira-froles.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>If we found a way to map plasmids:</p>
+<ul>
+<li>Swabbing: humans and animals across different areas.</li>
+<li>Sampling: water, soil.</li>
+<li>Plasmid type.</li>
+<li>Antibiotic pressure in bacterial environment (human/animal antibiotic history, eg last year).</li>
+<li>Predict resistance type at a given place.</li>
+</ul></li>
+</ul>
+</div>
+<div class="img-center">
+<p><img class="plain" style="width:650px;" src="assets/img/Spatial-component-of-the-fitted-model-Calicophoron.jpg"></p>
+</div>
+<!-- ![Spatial component of the fitted model for the probability of occurrence of *C. daubneyi* infection in dairy cows throughout Galicia. Posterior mean (A) and standard deviation (B). Gonzalez Warleta et al, 2013 [@gonzalez-warleta_bovine_2013]. ](./assets/img/Spatial-component-of-the-fitted-model-Calicophoron.jpg) -->
+</section>
+<section id="plasmid-prediction" class="slide level2">
+<h2>Plasmid prediction</h2>
+<section data-background-image="./assets/img/Toscana.jpeg" data-background-size="100%">
+</section>
+<!-- <section data-background-image="./assets/img/Vilanova-Cerveira-froles.jpg" data-background-size="100%"> -->
+<!-- </section> -->
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>If we found a way to predict plasmids:</p>
+<ul>
+<li>Spatial modelling. <!--Spatio-temporal?--></li>
+<li>Restrict sampling areas in future studies. <!-- - More relevant animal and human sampling.  --></li>
+<li>Establish permanent monitoring in risk areas. (Like tuberculin). Animals, and humans.</li>
+<li>Design, evaluate interventions to curb plasmid production/spreading.</li>
+<li>Change european policies regarding ATBs in farms.</li>
+</ul></li>
+</ul>
+</div>
+<div class="img-center">
+<p><img class="plain" style="width:650px;" src="assets/img/Spatial-component-of-the-fitted-model-Calicophoron.jpg"></p>
+</div>
+</section>
+<section id="network-creation" class="slide level2">
+<h2>Network creation</h2>
+<section data-background-image="./assets/img/study2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>If we found a way to establish monitoring networks:</p>
+<ul>
+<li>Apply and update models with new data.</li>
+<li>Network would rely on routine procedures, but not yet established.</li>
+<li>People needs to know each other.</li>
+<li>Procedures need to unify.</li>
+</ul></li>
+</ul>
+</div>
+<div class="img-center">
+<p><img class="plain" style="width:650px;" src="assets/img/Spatial-component-of-the-fitted-model-Calicophoron.jpg"></p>
+</div>
+</section>
+<section id="network-development" class="slide level2">
+<h2>Network development</h2>
+<section data-background-image="./assets/img/study2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.8em;">
+<ul>
+<li><p>Tasks for human, animal, environment.</p></li>
+<li><p>Role of microbiology services.</p></li>
+<li><p>Role of data modeling.</p></li>
+<li><p>First: task over-development. Followed by pruning.</p></li>
+</ul>
+</div>
+<div class="img-center">
+<p><img class="plain" style="width:650px;" src="assets/img/Spatial-component-of-the-fitted-model-Calicophoron.jpg"></p>
+</div>
+</section>
+<section id="tasks-human-hospital" class="slide level2">
+<h2>Tasks: Human, hospital</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Routine anal swabs (RAS) in patients who have multiresistance risk criteria. Standard procedure involving a nurse and the Microbiology Department.</p></li>
+<li><p>Data collection from cultured swabs from colonised/uncolonised individuals. Involvement of people/partner for data collection, curation and custody.</p>
+<ul>
+<li>Bacteria type.</li>
+<li>Multiresistance<!-- mechanism--> / lack thereof.</li>
+<li>Pacient address ZIP code.</li>
+<li>Type of address (home, nursing-home).</li>
+<li>Recent hospital admission. <!-- + Admitted more than 48h before: criterion possibly discarded --></li>
+<li>Antibiotic pressure: antibiotic usage history in last year.</li>
+<li>Demographic data.</li>
+<li>Mortality.</li>
+<li>Hospital length of stay.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="tasks-human-community" class="slide level2">
+<h2>Tasks: Human, community</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Random RAS sampling in outpatients attending to any health facility. Sample is self-collected by the patient. Needs training by a nurse.</p>
+<ul>
+<li>Requires nurse for kit delivery, patient training and sample collection.</li>
+<li>Person for the recovery and transport of samples to the Microbiology Department in tertiary hospital.</li>
+<li>Antibiotic pressure: antibiotic usage history in last year (needs database).</li>
+</ul></li>
+<li><p>Random RAS sampling in healthy population.</p></li>
+<li><p>Number of kits needed: [unknown].</p></li>
+<li><p>Areas to sample: [unknown].</p></li>
+</ul>
+</div>
+</section>
+<section id="tasks-human-microbiology" class="slide level2">
+<h2>Tasks: Human, microbiology</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Receive and analyse all human samples.</p></li>
+<li><p>As N is unknown, they cannot provide budget yet. <!-- micro pide la N --></p></li>
+<li><p>Depending on N, Microbiology workload could be shared.</p></li>
+<li><p>Multiresistance mechanism not always available (sometimes yes, sometimes only inferred, as in the case of pumps).</p>
+<ul>
+<li>The only available are enzymatic. Not pumps.</li>
+<li>Phenotype can be as relevant as actual mechanism in terms of actionability.</li>
+</ul></li>
+<li><p>Multiresistance types: b-lactams, colistine, they will buy vancomycin plates (not vancomycin resistance in our area, but exists in Pontevedra).</p></li>
+<li><p>They will issue an <strong>unified procedure for AMR analysis</strong>, to be used/modified/unified for all Micro partners.</p></li>
+</ul>
+</div>
+</section>
+<section id="tasks-animal" class="slide level2">
+<h2>Tasks: Animal</h2>
+<section data-background-image="./assets/img/Toscana.jpeg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Routine anal swabs (RAS) in selected cattle populations. Involvement of Veterinary physician and/or others.</p>
+<ul>
+<li>By class (mammals, birds), and species.</li>
+<li>Selection of animal types to sample.</li>
+</ul></li>
+<li><p>Data collection. Involvement of people for data collection, curation and custody.</p>
+<ul>
+<li>Bacteria type.</li>
+<li>Multiresistance<!-- mechanism--> / lack thereof.</li>
+<li>Animal location.</li>
+<li>Type of animal facility.</li>
+<li>Antibiotic pressure: antibiotic usage history in last year. Will need database construction.</li>
+<li>Age, sex.</li>
+<li>Mortality.</li>
+<li>Derived animal product(s).?</li>
+<li>Destination of such product(s).?</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="tasks-animal-micro" class="slide level2">
+<h2>Tasks: Animal, micro</h2>
+<section data-background-image="./assets/img/Toscana.jpeg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Receive and analyse all human samples.</p></li>
+<li><p>As N is unknown, they cannot provide budget yet.</p></li>
+</ul>
+</div>
+</section>
+<section id="tasks-environment" class="slide level2">
+<h2>Tasks: Environment</h2>
+<section data-background-image="./assets/img/Toscana.jpeg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Meteorological conditions. Involvement either of meteorological services (central or local) or data specialist for open data retrieval.</p>
+<ul>
+<li>Daily temperature: mean, maximum, minimum</li>
+<li>Humidity</li>
+<li>Sunlight</li>
+<li>Calendar day</li>
+</ul></li>
+<li><p>Soil and water samples from selected locations (samples at only one timepoint?). Involvement of person for soil samples retrieval, transport and culturing.</p>
+<ul>
+<li>Bacteria type.</li>
+<li>Multiresistance mechanism / lack thereof.</li>
+<li>Soil location.</li>
+<li>Soil type</li>
+</ul></li>
+<li><p>[Q: data granularity]</p></li>
+</ul>
+</div>
+</section>
+<section id="tasks-data-management" class="slide level2">
+<h2>Tasks: Data management</h2>
+<section data-background-image="./assets/img/code.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Database structure design.</p>
+<ul>
+<li>Merging of incoherent database structures.</li>
+<li>Initially for human data, possibility of integration of animal and environmental data.</li>
+<li>To integrate databases, a stable, fixed structure is needed to allow automatic parsing.</li>
+</ul></li>
+<li><p>Centralised, concurrent database input. To be used by physicians, or data managers etc.</p></li>
+<li><p>Database management, storage.</p>
+<ul>
+<li>Possibly necessary a Big Data architecture (Hadoop-Spark stack) and experts for advanced data management.</li>
+<li>Available, user friendly APIs in R and Python (sparklyr, pyspark)</li>
+<li>GDPR compliant.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="tasks-statistical-modelling" class="slide level2">
+<h2>Tasks: Statistical modelling</h2>
+<section data-background-image="./assets/img/library.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Data curation and documentation. Provided by database maintenance experts.</p></li>
+<li><p>Data description (interpretation by subject matter experts, eg microbiologists from the project partnership).</p></li>
+<li><p>Data modelling:</p>
+<ul>
+<li>Involvement of experts for spatio-temporal modelling. Exploration of a Bayesian (hierarchical modelling?) approach.</li>
+<li>Developing interactive platforms for results exploration and interpretation.</li>
+<li>Need of an HPC platform for Bayesian modeling?.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="tasks-actions" class="slide level2">
+<h2>Tasks: Actions</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Action plan design, data informed:</p>
+<ul>
+<li>Antibiotic regimen recommendations for humans and animals in case of infections.</li>
+<li>Antibiotic recommendations for profilactic usage in humans and animals.</li>
+</ul></li>
+</ul>
+</div>
+<div class="alert alert-white" style="font-size:0.7em;">
+<p><strong>Example: the problem of colistin resistance:</strong></p>
+<ul>
+<li>Currently, there’s chromosomic resistance to colistin, which is not transmissible.</li>
+<li>This is why the intense colistin usage in chickens does not seem to impact (yet) colistin resistance in human populations.</li>
+<li>In Asia, MCR-1 plasmidic colistin resistance (transmissible!) has emerged (pig farms) but not reached Europe yet <span class="citation" data-cites="carroll_identification_2019">[@carroll_identification_2019]</span>.</li>
+</ul>
+</div>
+</section>
+<section id="tasks-result-dissemination" class="slide level2">
+<h2>Tasks: Result dissemination</h2>
+<section data-background-image="./assets/img/study2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Web page.</p></li>
+<li><p>Seminars, workshops in scientific contexts…</p></li>
+<li><p>Workshops with medical and veterinary professionals on best practice.</p></li>
+<li><p>Guidelines for antibiotic usage in humans and animals.</p></li>
+<li><p>Advertisement. Possible ideas/concepts aimed to the general public:</p>
+<ul>
+<li>Benefits of ecological farming. “Green farming”.</li>
+<li>Good antibiotic usage (what not to do with antibiotics).</li>
+</ul></li>
+<li><p>Advertisement. Possible ideas/concepts aimed to farmers:</p>
+<ul>
+<li>Ecological benefits. Treatment of infections</li>
+<li>Profitability.</li>
+<li>Better public image. Ecological “label”.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Prevalence and spatial distribution of antibiotic resistance genes (ARGs) in [two/three] European areas.</p></li>
+<li><p>Determine the importance (global prevalence and impact in human antibiotic resistance) of the different AMR mechanisms.</p></li>
+<li><p>Quantify the <!-- rate of-->transmission of the most important AMR mechanisms between animal and human populations via:</p>
+<ul>
+<li>Spatial proximity and levels of exposure. Vertical spread.</li>
+<li>Different epidemiological vectors: food, soil, water<!--(free running or piped inside hospitals)-->.</li>
+<li>Usage in horticulture: impact on soil.</li>
+<li>Unclear how could we monitor food.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="objectives-1" class="slide level2">
+<h2>Objectives</h2>
+<section data-background-image="./assets/img/lego2.jpg" data-background-size="100%">
+</section>
+<div class="alert alert-white" style="font-size:0.7em;">
+<ul>
+<li><p>Predict the probability of a given AMR at a given location. <!-- [Q: is this happening as a time series, or is AMR linked to one antibiotic or multiple/all? Is AMR a binary presence/absence, per antibiotic?] --></p>
+<ul>
+<li>Possibility of considering a time-series of AMR appearance at a given location?.</li>
+<li>AMR: actually a binary variable.</li>
+<li>The environmental pressure for a bacteria to adopt a AMR plaasmid may be more important than the density of such plasmid in the environment (to a point).</li>
+</ul></li>
+<li><p>Design a series of (small scale) interventions to reduce important AMRs. <!--[Q: would need to be small scale]--></p></li>
+<li><p>Informed assessment of the impact of different interventions to reduce probability of AMR in animal farms and human populations.</p></li>
+<li><p>Identification of a link between AMR in livestock and human populations, and relationship with respective antibiotic histories and current usage practices</p></li>
+</ul>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="index_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="index_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "TRUE";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
